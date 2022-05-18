@@ -13,6 +13,12 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'HomePage',
   setup () {
+    useHead({
+      title: 'Color Converter',
+      link: [
+        { href: '/favicon-16x16.png', rel: 'icon', type: 'image/x-icon' }
+      ]
+    });
     const colors = reactive({
       hex: '#FFFF00',
       rgba: 'rgba(255, 255, 0, 1)'
