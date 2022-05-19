@@ -16,7 +16,7 @@ export default defineComponent({
     useHead({
       title: 'Color Converter',
       link: [
-        { href: '/favicon-16x16.png', rel: 'icon', type: 'image/x-icon' }
+        { href: '/favicon-16x16.png', rel: 'shortcut icon', type: 'image/x-icon' }
       ]
     });
     const colors = reactive({
